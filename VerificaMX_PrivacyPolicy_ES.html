@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Política de Privacidad – VerificaMX</title>
+<style>
+  :root {
+    --fg:#0d1b2a; --muted:#555; --accent:#2e7d32;
+    --bg:#fff; --card:#f7f9fb;
+  }
+  body { margin:0; font-family:system-ui,-apple-system,Segoe UI,Roboto,Ubuntu,'Helvetica Neue',Arial; color:var(--fg); background:var(--bg); line-height:1.6; }
+  header { padding:2.5rem 1rem; background:linear-gradient(180deg, #e8f5e9 0%, #fff 100%); text-align:center; }
+  h1 { margin:0; font-size:1.9rem; }
+  main { max-width:900px; margin:0 auto; padding:2rem 1rem; }
+  h2 { margin-top:2rem; color:var(--accent); }
+  .card { background:var(--card); padding:1rem 1.25rem; border-radius:12px; }
+  a { color:#1565c0; }
+  footer { margin-top:3rem; padding:1.5rem; font-size:.95rem; color:var(--muted); background:#fafafa; }
+  ul { padding-left:1.2rem; }
+  .meta { color:var(--muted); }
+  code { background:#eef3f7; padding:.15rem .35rem; border-radius:6px; }
+</style>
+</head>
+<body>
+<header>
+  <h1>Política de Privacidad</h1>
+  <div class="meta">VerificaMX • Última actualización: 7 de October de 2025</div>
+</header>
+<main>
+  <section class="card">
+    <p><strong>VerificaMX</strong> es una aplicación Android que te ayuda a saber si hoy circulas y a recordar la verificación vehicular. Este documento explica cómo tratamos tu información.</p>
+  </section>
+
+  <h2>1. Responsable</h2>
+  <p>Esta app es operada por <strong>NuttyLabs</strong> (“nosotros”). Puedes contactarnos en <a href="mailto:edddea@gmail.com">edddea@gmail.com</a>.</p>
+
+  <h2>2. Qué datos manejamos</h2>
+  <p>La app funciona <strong>sin crear cuentas</strong> y <strong>sin enviar datos a servidores</strong>. La información se guarda <strong>solo en tu dispositivo</strong> (DataStore/área privada de la app):</p>
+  <ul>
+    <li>Placa y último dígito.</li>
+    <li>Holograma (00, 0, 1 o 2) y engomado.</li>
+    <li>Entidad seleccionada (CDMX o Edomex).</li>
+    <li>Preferencias de notificaciones.</li>
+  </ul>
+  <p><em>Nota:</em> La placa puede considerarse dato personal. No la transmitimos ni la compartimos.</p>
+
+  <h2>3. Para qué usamos los datos</h2>
+  <ul>
+    <li>Determinar si tu vehículo puede circular según reglas base.</li>
+    <li>Calcular la próxima ventana de verificación y mostrarte recordatorios locales (WorkManager).</li>
+    <li>Opcionalmente, permitirte crear un evento en tu calendario mediante un <em>intent</em> del sistema (no leemos tu calendario).</li>
+  </ul>
+
+  <h2>4. Conexión a internet y terceros</h2>
+  <ul>
+    <li><strong>No</strong> usamos analítica, publicidad ni SDKs de rastreo.</li>
+    <li><strong>No</strong> enviamos tu información a servidores propios ni de terceros.</li>
+    <li>La app puede funcionar completamente <strong>offline</strong>.</li>
+  </ul>
+
+  <h2>5. Permisos del sistema</h2>
+  <ul>
+    <li><strong>Notificaciones</strong> (Android 13+): para avisos locales de circulación/verificación. Puedes revocarlas en cualquier momento desde Ajustes del sistema.</li>
+  </ul>
+
+  <h2>6. Conservación y control</h2>
+  <ul>
+    <li>Los datos permanecen en tu dispositivo hasta que los edites, borres la información de la app o desinstales la aplicación.</li>
+    <li>Puedes eliminar todos los datos desde <strong>Ajustes del sistema → Apps → VerificaMX → Almacenamiento → Borrar datos</strong> o desinstalando la app.</li>
+  </ul>
+
+  <h2>7. Seguridad</h2>
+  <p>La información se almacena en el espacio privado de la aplicación provisto por Android. Aplicamos el principio de minimización (solo guardamos lo necesario) y evitamos transferencias de datos a la nube.</p>
+
+  <h2>8. Menores de edad</h2>
+  <p>La app no está dirigida a menores y no recopilamos información de forma deliberada de personas menores de 13 años.</p>
+
+  <h2>9. Cambios a esta política</h2>
+  <p>Podemos actualizar esta política para reflejar mejoras de la app o cambios regulatorios. Publicaremos la versión vigente en este documento indicando la fecha de “Última actualización”.</p>
+
+  <h2>10. Contacto</h2>
+  <p>Para cualquier duda o solicitud relacionada con privacidad, escríbenos a <a href="mailto:edddea@gmail.com">edddea@gmail.com</a>.</p>
+
+  <section class="card">
+    <h2>Anexo: Resumen para “Seguridad de los datos” (Google Play)</h2>
+    <ul>
+      <li><strong>Datos compartidos:</strong> No compartimos datos con terceros.</li>
+      <li><strong>Datos recopilados:</strong> No recopilamos datos fuera del dispositivo. Los valores que ingresas (placa, holograma, etc.) se guardan localmente.</li>
+      <li><strong>Procesamiento en dispositivo:</strong> Sí.</li>
+      <li><strong>El usuario puede solicitar eliminación:</strong> Sí (borrar datos de la app o desinstalar).</li>
+    </ul>
+    <p>Si en el futuro se habilitan funciones en línea (por ejemplo, actualización remota de calendarios oficiales), actualizaremos esta sección antes de su lanzamiento.</p>
+  </section>
+</main>
+<footer>
+  © 2025 VerificaMX — Este documento es informativo y no constituye asesoría legal.
+</footer>
+</body>
+</html>
